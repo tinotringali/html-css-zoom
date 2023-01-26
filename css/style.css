@@ -55,11 +55,6 @@ header{
     width: 25px;
 }
 
-
-footer{
-    height: 70px;
-    background-color: #222222;
-}
 /* 
 _______
 main
@@ -103,4 +98,44 @@ _______
 footer
 _______
  */
+ footer{
+    height: 70px;
+    background-color: #222222;
+}
+ .nav-footer{
+    justify-content: space-between;
+    color: white;
+ }
+
+ .icon{
+    font-size: 25px;
+    margin: 10px 20px 0px 25px;
+ }
  
+ .icon.green{
+    color: green;
+ }
+
+ .row-up{
+    margin-left: 10px;
+    font-size: 14px;
+ }
+
+ .row-up,.bottom{
+    margin-top: 25px;
+ }
+
+ h6{
+    text-align: center;
+    margin-top: 7px;
+ }
+
+ 
+ h5{
+    color: red;
+    background-color: #4a4a4a;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+ }
