@@ -1,13 +1,27 @@
+/* 
+_______
+reset
+_______
+ */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
+_______
+commond
+_______
+ */
 .row{
     display: flex;
 }
-
+/* 
+_______
+header
+_______
+ */
 header{
     height: 40px;
     background-color: black;
@@ -41,11 +55,52 @@ header{
     width: 25px;
 }
 
-main{
-    height: calc(100vh - 110px);
-    background-color: yellow;
-}
+
 footer{
     height: 70px;
-    background-color: red;
+    background-color: #222222;
 }
+/* 
+_______
+main
+_______
+ */
+ main{
+    height: calc(100vh - 110px);
+    background-color: black;
+    overflow: auto;
+}
+
+ .container{
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+ }
+
+ .box{
+    width: calc(100% / 7);
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+ }
+
+.user{
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    width: 110px;
+    height: 25px;
+    bottom: 10px;
+    background-color: rgba(98, 111, 124, 0.6);
+} 
+
+.fa-microphone-slash{
+    margin-right: 5px;
+}
+ /* 
+_______
+footer
+_______
+ */
+ 
